@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inder", sans-serif;
+}
+
+body{
+    background: black;
+}
+
+#Links-profile-container{
+    margin: 5rem auto;
+    width: 384px;
+    height: 620px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.avatar-img img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.profile-text{
+    text-align: center;
+}
+
+.profile-text h1{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.profile-text h4{
+    color: #c5f82a;
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+.profile-text p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 1.5rem; 
+}
+
+.Links-profile-container{
+    margin-top: 1.5rem;
+}
+
+.Links-menu Li{
+    list-style-type: none;
+    width: 304px;
+    height: 45px;
+    text-align: center;
+    width: 304px;
+    height: 45px;
+    margin: 1rem 0rem;
+}
+
+.Links-menu Li a{
+     background: #333333;
+     text-decoration: none;
+     color: #ffffff;
+     width: 304px;
+     height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: all .2s ease-in
+}
+
+.Links-menu Li a:hover{
+    background-color: #c5f82a;
+    color: #141414;
+    
+}
